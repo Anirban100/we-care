@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_segment">
+    <sys_sg_item_stream_segment action="INSERT_OR_UPDATE">
+        <interleave_order_direction>asc</interleave_order_direction>
+        <name>Community Item Stream Segment</name>
+        <order>0</order>
+        <screen display_value="Communities">2a17eee91b209410fd1e10a61a4bcbaf</screen>
+        <sys_class_name>sys_sg_item_stream_segment</sys_class_name>
+        <sys_created_by>AnirbanR</sys_created_by>
+        <sys_created_on>2020-05-03 07:41:58</sys_created_on>
+        <sys_id>a617eee91b209410fd1e10a61a4bcbb3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Community Item Stream Segment</sys_name>
+        <sys_package display_value="We Care" source="x_snc_we_care">e615aea91b209410fd1e10a61a4bcb01</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="We Care">e615aea91b209410fd1e10a61a4bcb01</sys_scope>
+        <sys_update_name>sys_sg_item_stream_segment_a617eee91b209410fd1e10a61a4bcbb3</sys_update_name>
+        <sys_updated_by>AnirbanR</sys_updated_by>
+        <sys_updated_on>2020-05-03 07:41:58</sys_updated_on>
+    </sys_sg_item_stream_segment>
+</record_update>

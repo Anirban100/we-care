@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="equivalent_donation_amount" label="Equivalent donation amount ($)" language="en" table="x_snc_we_care_contribution_history">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>equivalent_donation_amount</element>
+            <help/>
+            <hint/>
+            <label>Equivalent donation amount ($)</label>
+            <language>en</language>
+            <name>x_snc_we_care_contribution_history</name>
+            <plural>Equivalent donation amount ($)</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>AnirbanR</sys_created_by>
+            <sys_created_on>2020-05-03 08:00:13</sys_created_on>
+            <sys_id>472b09751be49410fd1e10a61a4bcb0e</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Equivalent donation amount ($)</sys_name>
+            <sys_package display_value="We Care" source="x_snc_we_care">e615aea91b209410fd1e10a61a4bcb01</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="We Care">e615aea91b209410fd1e10a61a4bcb01</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_we_care_contribution_history_equivalent_donation_amount_en</sys_update_name>
+            <sys_updated_by>AnirbanR</sys_updated_by>
+            <sys_updated_on>2020-05-03 08:03:40</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

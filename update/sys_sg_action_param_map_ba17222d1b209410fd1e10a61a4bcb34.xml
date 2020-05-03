@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="Edit Button (Contribution History)">fe17222d1b209410fd1e10a61a4bcb30</button>
+        <item_parameter display_value="Contribution History sys_id">3a17222d1b209410fd1e10a61a4bcb2d</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>AnirbanR</sys_created_by>
+        <sys_created_on>2020-05-03 07:42:00</sys_created_on>
+        <sys_id>ba17222d1b209410fd1e10a61a4bcb34</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>3a17222d1b209410fd1e10a61a4bcb2d</sys_name>
+        <sys_package display_value="We Care" source="x_snc_we_care">e615aea91b209410fd1e10a61a4bcb01</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="We Care">e615aea91b209410fd1e10a61a4bcb01</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_ba17222d1b209410fd1e10a61a4bcb34</sys_update_name>
+        <sys_updated_by>AnirbanR</sys_updated_by>
+        <sys_updated_on>2020-05-03 07:42:00</sys_updated_on>
+        <ui_parameter display_value="Sys ID">b217222d1b209410fd1e10a61a4bcb32</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>

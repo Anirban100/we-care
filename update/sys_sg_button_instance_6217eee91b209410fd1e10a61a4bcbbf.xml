@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <button display_value="Delete Swipe (Community)">e217eee91b209410fd1e10a61a4bcbbc</button>
+        <color_theme>primary</color_theme>
+        <description/>
+        <field_name/>
+        <icon/>
+        <label>Delete</label>
+        <location>leading_swipe</location>
+        <name>Delete (Community)</name>
+        <order/>
+        <parent>2217eee91b209410fd1e10a61a4bcbb7</parent>
+        <parent_table>sys_sg_master_item</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>AnirbanR</sys_created_by>
+        <sys_created_on>2020-05-03 07:41:58</sys_created_on>
+        <sys_id>6217eee91b209410fd1e10a61a4bcbbf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Delete (Community)</sys_name>
+        <sys_package display_value="We Care" source="x_snc_we_care">e615aea91b209410fd1e10a61a4bcb01</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="We Care">e615aea91b209410fd1e10a61a4bcb01</sys_scope>
+        <sys_update_name>sys_sg_button_instance_6217eee91b209410fd1e10a61a4bcbbf</sys_update_name>
+        <sys_updated_by>AnirbanR</sys_updated_by>
+        <sys_updated_on>2020-05-03 07:41:58</sys_updated_on>
+        <table/>
+    </sys_sg_button_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=6217eee91b209410fd1e10a61a4bcbbf"/>
+</record_update>

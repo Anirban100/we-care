@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Volunteer" max_length="40" name="x_snc_we_care_volunteer" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="User type" max_length="40" name="user_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Internal" sequence="0" value="internal"/>
+                <element inactive_on_update="false" label="External/ Vendor" sequence="1" value="external"/>
+                <element inactive_on_update="false" label="Public" sequence="2" value="public"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" display="true" label="Volunteer" max_length="32" name="volunteer" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Volunteering Community" max_length="100" name="volunteering_community" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Volunteer category" max_length="40" name="volunteer_category" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Independent" sequence="0" value="independent"/>
+                <element inactive_on_update="false" label="Internal Community" sequence="1" value="int_comm"/>
+                <element inactive_on_update="false" label="External Community" sequence="2" value="ext_comm"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="volunteer"/>
+        </index>
+    </element>
+</database>

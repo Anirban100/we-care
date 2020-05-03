@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item">
+    <sys_sg_data_item action="INSERT_OR_UPDATE">
+        <condition_type>declarative</condition_type>
+        <description/>
+        <group_by/>
+        <name>We Care Volunteer</name>
+        <query_condition/>
+        <query_condition_script/>
+        <sys_class_name>sys_sg_data_item</sys_class_name>
+        <sys_created_by>AnirbanR</sys_created_by>
+        <sys_created_on>2020-05-03 07:41:59</sys_created_on>
+        <sys_id>3a17eee91b209410fd1e10a61a4bcbef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>We Care Volunteer</sys_name>
+        <sys_package display_value="We Care" source="x_snc_we_care">e615aea91b209410fd1e10a61a4bcb01</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="We Care">e615aea91b209410fd1e10a61a4bcb01</sys_scope>
+        <sys_update_name>sys_sg_data_item_3a17eee91b209410fd1e10a61a4bcbef</sys_update_name>
+        <sys_updated_by>AnirbanR</sys_updated_by>
+        <sys_updated_on>2020-05-03 07:41:59</sys_updated_on>
+        <table>x_snc_we_care_volunteer</table>
+    </sys_sg_data_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=3a17eee91b209410fd1e10a61a4bcbef"/>
+</record_update>

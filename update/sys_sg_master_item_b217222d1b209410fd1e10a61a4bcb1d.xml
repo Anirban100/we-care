@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_master_item">
+    <sys_sg_master_item action="INSERT_OR_UPDATE">
+        <condition_order/>
+        <datasource_table>x_snc_we_care_contribution_history</datasource_table>
+        <datasource_table_condition/>
+        <embedded_screen display_value="Contribution History Form Screen">7a17222d1b209410fd1e10a61a4bcb18</embedded_screen>
+        <item_view display_value="Contribution History List Screen Item View">3e17222d1b209410fd1e10a61a4bcb15</item_view>
+        <name>Contribution History master_item</name>
+        <sys_class_name>sys_sg_master_item</sys_class_name>
+        <sys_created_by>AnirbanR</sys_created_by>
+        <sys_created_on>2020-05-03 07:41:59</sys_created_on>
+        <sys_id>b217222d1b209410fd1e10a61a4bcb1d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Contribution History master_item</sys_name>
+        <sys_package display_value="We Care" source="x_snc_we_care">e615aea91b209410fd1e10a61a4bcb01</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="We Care">e615aea91b209410fd1e10a61a4bcb01</sys_scope>
+        <sys_update_name>sys_sg_master_item_b217222d1b209410fd1e10a61a4bcb1d</sys_update_name>
+        <sys_updated_by>AnirbanR</sys_updated_by>
+        <sys_updated_on>2020-05-03 07:41:59</sys_updated_on>
+    </sys_sg_master_item>
+</record_update>

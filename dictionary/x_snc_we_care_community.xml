@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Community" max_length="40" name="x_snc_we_care_community" type="collection">
+        <element attributes="edge_encryption_enabled=true" display="true" label="Community name" max_length="100" name="community_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Ph Number" max_length="40" name="ph_number" type="phone_number_e164"/>
+        <element attributes="edge_encryption_enabled=true,target_field=target,target_threshold_colors=0:firebrick;35:darkorange;50:gold;75:lightgreen;90:darkgreen" label="Support received" max_length="15" name="support_received" type="percent_complete"/>
+        <element attributes="edge_encryption_enabled=true" label="Target" max_length="15" name="target" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Address" max_length="32" name="u_address" reference="cmn_location" type="reference"/>
+        <index name="index">
+            <element name="u_address"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="volunteer_category" table="x_snc_we_care_volunteer" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>volunteer_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Independent</label>
+            <language>en</language>
+            <name>x_snc_we_care_volunteer</name>
+            <sequence>0</sequence>
+            <sys_created_by>AnirbanR</sys_created_by>
+            <sys_created_on>2020-05-03 08:40:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>208432251b609410fd1e10a61a4bcbc4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AnirbanR</sys_updated_by>
+            <sys_updated_on>2020-05-03 08:40:33</sys_updated_on>
+            <value>independent</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>volunteer_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Internal Community</label>
+            <language>en</language>
+            <name>x_snc_we_care_volunteer</name>
+            <sequence>1</sequence>
+            <sys_created_by>AnirbanR</sys_created_by>
+            <sys_created_on>2020-05-03 08:40:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e8747ee11b609410fd1e10a61a4bcbb0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AnirbanR</sys_updated_by>
+            <sys_updated_on>2020-05-03 08:40:16</sys_updated_on>
+            <value>int_comm</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>volunteer_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>External Community</label>
+            <language>en</language>
+            <name>x_snc_we_care_volunteer</name>
+            <sequence>2</sequence>
+            <sys_created_by>AnirbanR</sys_created_by>
+            <sys_created_on>2020-05-03 08:39:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8a143ee11b609410fd1e10a61a4bcbb2</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>AnirbanR</sys_updated_by>
+            <sys_updated_on>2020-05-03 08:41:17</sys_updated_on>
+            <value>ext_comm</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>volunteer_category</element>
+            <name>x_snc_we_care_volunteer</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>AnirbanR</sys_created_by>
+            <sys_created_on>2020-05-03 08:39:46</sys_created_on>
+            <sys_id>6e74d1f5dbe4d01075260d53ca961999</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>volunteer_category</sys_name>
+            <sys_package display_value="We Care" source="x_snc_we_care">e615aea91b209410fd1e10a61a4bcb01</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="We Care">e615aea91b209410fd1e10a61a4bcb01</sys_scope>
+            <sys_update_name>sys_choice_x_snc_we_care_volunteer_volunteer_category</sys_update_name>
+            <sys_updated_by>AnirbanR</sys_updated_by>
+            <sys_updated_on>2020-05-03 08:39:46</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

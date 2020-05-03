@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Contribution History" max_length="40" name="x_snc_we_care_contribution_history" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Contribution details" max_length="4000" name="contribution_details" type="simple_name_values"/>
+        <element attributes="edge_encryption_enabled=true" label="Equivalent donation amount ($)" max_length="100" name="equivalent_donation_amount" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Notes" max_length="100" name="notes" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Supported community" max_length="32" name="supported_community" reference="x_snc_we_care_community" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Support type" max_length="40" name="support_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="fund" sequence="0" value="fund"/>
+                <element inactive_on_update="false" label="goods" sequence="1" value="goods"/>
+                <element inactive_on_update="false" label="fund and goods" sequence="2" value="fund and goods"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Volunteer" max_length="32" name="volunteer" reference="x_snc_we_care_volunteer" type="reference"/>
+        <index name="index">
+            <element name="volunteer"/>
+        </index>
+        <index name="index2">
+            <element name="supported_community"/>
+        </index>
+    </element>
+</database>
